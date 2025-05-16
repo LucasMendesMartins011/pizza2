@@ -1,0 +1,43 @@
+.quadrado {
+    width: 300px;
+    height: 400px;
+    margin: 100px;
+    float: left;
+    background: #fff9da;
+    border-radius: 20px;
+    border: 5px solid #7c0303;
+    transition: transform 0.5s ease, border-color 0.5s ease ;
+}
+
+.quadrado:hover {
+    transform: scale(1.05);
+    border-color:#ffcf66
+}
+
+#nomepizza p {
+    color: #7c0303;
+    font-size: 45px;
+    font-family: 'Yeseva One';
+    text-align: center;
+}
+
+.precopizza p {
+    color: black;
+    font-size: 15px;
+    font-family: 'Yeseva One';
+    text-align: center;
+}
+
+#ingredientes ul {
+    color: black;
+    font-size: 15px;
+    font-family: 'Yeseva One';
+    text-align: left;
+}
+
+body {
+    background-image: url(img/278\ Sem\ Título_20250510154841.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
